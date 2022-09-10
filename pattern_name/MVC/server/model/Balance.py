@@ -8,5 +8,7 @@ class Balance:
         
     def getBalance(self, sqldb):
         total_balance = sqldb.session.query(DBModel).with_entities(func.sum(DBModel.income).label('balance')).first().balance
+        if not total_balance:
+            total_balance = 0
         return '%.2f'%total_balance    
         
