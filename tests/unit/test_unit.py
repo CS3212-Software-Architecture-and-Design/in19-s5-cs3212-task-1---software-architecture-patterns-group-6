@@ -7,9 +7,8 @@ sys.path.append(os.path.join(ROOT_DIR,'pattern_name','MVC', 'client','controller
 sys.path.append(os.path.join(ROOT_DIR, 'pattern_name','MVC','server','model'))
 sys.path.append(os.path.join(ROOT_DIR, 'pattern_name','MVC','server'))
 TEST_SERVER_DIR = os.path.join(ROOT_DIR, 'tests', 'unit','test.db')
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import func
-from flask import current_app,Flask
+
+from flask import current_app
 from Balance import Balance
 from DBModel import DBModel
 from Expense import Expense
