@@ -8,7 +8,6 @@ sys.path.append(os.path.join(ROOT_DIR, 'pattern_name','MVC','server','model'))
 sys.path.append(os.path.join(ROOT_DIR, 'pattern_name','MVC','server'))
 TEST_SERVER_DIR = os.path.join(ROOT_DIR, 'tests', 'unit','test.db')
 
-from flask import current_app
 from Balance import Balance
 from DBModel import DBModel
 from Expense import Expense
@@ -63,7 +62,6 @@ class TestClass(unittest.TestCase):
         print("============================")
         print("Testing App Initialization")
         assert self.app is not None
-        assert current_app == self.app
         print("Test Success ✅")
 
     def test_income12(self):
