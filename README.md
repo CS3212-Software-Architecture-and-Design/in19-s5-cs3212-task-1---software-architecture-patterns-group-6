@@ -14,4 +14,4 @@ Run the controller.py in `pattern_name/MVC/server` in a terminal. Open another t
 Working alternative repository: https://github.com/KabilanMA/Model-View-Controller.git
 
 -------------
-Dev. Team : Kabilan M(190283C), Vinojith K(190650B), Sakeerthan T(190541R)
+Dev. Team : Kabilan M(190283C), Vinojith K(190650B), Sakeerthan T(190541R), Sivapalarajah T(190599B)
