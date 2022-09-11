@@ -62,6 +62,7 @@ class TestClass(unittest.TestCase):
         print("============================")
         print("Testing App Initialization")
         assert self.app is not None
+        assert current_app == self.app
         print("Test Success ✅")
 
     def test_income12(self):
